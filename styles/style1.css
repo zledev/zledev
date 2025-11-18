@@ -118,7 +118,7 @@ header {
 #contacts {
 	width: 100%;
 	border-top: 3px solid rgb(0, 0, 0);
-	background-color: rgb(14, 10, 10);
+	background-color: rgb(10, 14, 10);
 	padding-bottom: clamp(1rem, 2rem, 1rem);
 }
 
