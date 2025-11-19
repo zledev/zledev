@@ -11,6 +11,7 @@ graph TD;
     A[Projects] -->|#1 First Project| B[bhesh];
 ```
 __Projects__: #1 [![Github bhesh](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github/bhenzyldave/bhesh)
+#
 __Known Languages:__ ![JavaScript](https://img.shields.io/badge/JavaScript-ES2024-yellow?logo=javascript)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.7-blue?logo=typescript)
 ![Python](https://img.shields.io/badge/Python-3.13-blue?logo=python)
