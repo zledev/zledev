@@ -77,16 +77,17 @@ export default function Home() {
 
 				<div className="flex justify-center mt-10">
 					<div className="grid">
-						<div className="w-[60vw] col-start-1 row-start-1 z-2 ml-2 max-w-130">
+						<div className="w-[60vw] col-start-1 row-start-1 z-2 ml-2 max-w-130 min-w-50">
 							<img src="/bhesh.png" className=""></img>
 						</div>
-						<div className="blur-2xl col-start-1 row-start-1 z-1 w-[65vw] min-[600px]:mr-10 max-w-150">
+						<div className="blur-2xl col-start-1 row-start-1 z-1 w-[65vw] min-[600px]:mr-10 
+						max-w-150 min-w-50">
 							<img src="/bhesh.png" className=""></img>
 						</div>
 						<div
 							className="text-center min-[600px]:w-[85vw] min-w-55 h-fit max-w-90 min-[600px]:text-[175%] mt-[55%] 
 								text-[1.2rem] w-[35vw] col-start-1 row-start-1 z-3 backdrop-blur-2xl backdrop-brightness-150
-								rounded-2xl text-shadow-lg text-shadow-gray-500 p-2 font-medium">
+								rounded-2xl text-shadow-lg text-shadow-gray-500 p-2 font-medium shadow-lg shadow-gray-500">
 							Bhesh is a simple shell made in C. {"[Paused]"}
 						</div>
 					</div>
@@ -107,7 +108,7 @@ export default function Home() {
 							Contact Me ☕
 						</h1>
 					</div>
-					<div className="w-[40vw] min-[600px]:w-[75vw] max-w-150 mt-5 ml-10 min-[600px]:ml-0">
+					<div className="w-[40vw] min-[600px]:w-[75vw] max-w-150 mt-5">
 						<p className={`${Cause.className} min-[600px]:text-[1.5rem]`}>
 							Nothing much to say here right now. If you need anything, feel
 							free to contact me through here!
