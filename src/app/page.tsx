@@ -20,7 +20,7 @@ export default function Home() {
 				<div className="flex mt-10 min-[600px]:mt-20 justify-center">
 					<div className="grid justify-center content-center w-85 min-[600px]:w-60">
 						<div className="size-25 shadow-[0_0_2.5rem_#22c55e] rounded-[3rem] min-[600px]:size-40">
-							<img src="/bhenzy.jpg" className="rounded-[3rem]"></img>
+							<img src="/zledev.jpg" className="rounded-[3rem]"></img>
 						</div>
 					</div>
 					<div className="min-[600px]:w-[50%] max-w-130">
@@ -80,7 +80,8 @@ export default function Home() {
 						<div className="w-[60vw] col-start-1 row-start-1 z-2 ml-2 max-w-130 min-w-50">
 							<img src="/bhesh.png" className=""></img>
 						</div>
-						<div className="blur-2xl col-start-1 row-start-1 z-1 w-[65vw] min-[600px]:mr-10 
+						<div
+							className="blur-2xl col-start-1 row-start-1 z-1 w-[65vw] min-[600px]:mr-10 
 						max-w-150 min-w-50">
 							<img src="/bhesh.png" className=""></img>
 						</div>
