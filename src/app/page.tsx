@@ -116,7 +116,7 @@ export default function Home() {
 						</p>
 					</div>
 					<div className="mt-5 flex gap-3 min-[600px]:gap-5 w-fit min-[600px]:ml-0">
-						<a href="mailto:davebhenz@gmail.com">
+						<a href="mailto:zledev.tech@gmail.com">
 							<img
 								src="/gmail.png"
 								className="size-5 min-[600px]:size-10"></img>
