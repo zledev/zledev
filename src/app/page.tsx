@@ -124,7 +124,7 @@ export default function Home() {
 						<img
 							src="/discord.png"
 							className="size-5 min-[600px]:size-10"
-							alt="zledev"></img>
+							alt="https://discord.com/users/1289733637163716669"></img>
 						<a href="https://github.com/zledev">
 							<img
 								src="/github-white.png"
