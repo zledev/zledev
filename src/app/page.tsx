@@ -53,7 +53,7 @@ export default function Home() {
 						<h1
 							className={`${Cause.className} font-bold text-[2rem] leading-9 min-[600px]:text-[3rem]
 							text-shadow-lg text-shadow-green-700`}>
-							An Aspiring Computer Engineer!
+							A Random Developer
 						</h1>
 						<p className="min-[600px]:text-[1.5rem] min-[600px]:mt-2">
 							Growing & Learning everyday!{" "}
@@ -119,16 +119,18 @@ export default function Home() {
 						<a href="mailto:zledev.tech@gmail.com">
 							<img
 								src="/gmail.png"
-								className="size-5 min-[600px]:size-10"></img>
+								className="size-5 min-[600px]:size-10 opacity-80 hover:opacity-100"></img>
 						</a>
-						<img
-							src="/discord.png"
-							className="size-5 min-[600px]:size-10"
-							alt="https://discord.com/users/1289733637163716669"></img>
+						<a href="https://discord.com/users/1289733637163716669">
+							<img
+								src="/discord.png"
+								className="size-5 min-[600px]:size-10 opacity-80 hover:opacity-100"
+								alt="zledev"></img>
+						</a>
 						<a href="https://github.com/zledev">
 							<img
 								src="/github-white.png"
-								className="size-5 min-[600px]:size-10"></img>
+								className="size-5 min-[600px]:size-10 opacity-80 hover:opacity-100"></img>
 						</a>
 					</div>
 				</div>
