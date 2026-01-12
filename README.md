@@ -17,6 +17,7 @@ __Projects__: #1 [![Github bhesh](https://img.shields.io/badge/GitHub-Repository
 __Known Languages:__ ![JavaScript](https://img.shields.io/badge/JavaScript-ES2024-yellow?logo=javascript)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.7-blue?logo=typescript)
 ![Python](https://img.shields.io/badge/Python-3.13-blue?logo=python)
+
 ![HTML5](https://img.shields.io/badge/HTML5-Latest-orange?logo=html5)
 ![CSS3](https://img.shields.io/badge/CSS3-Latest-blue?logo=css3)
 ![C](https://img.shields.io/badge/C-C23-blue?logo=c)
