@@ -11,7 +11,7 @@ const socials: { label: string; icon: string; href: string }[] = [
 	{ label: "Github", icon: ICONS.github, href: "https://github.com/zledev" },
 ];
 
-export default function FinalCta() {
+export default function FooterLast() {
 	return (
 		<section className="pb-10 pt-6">
 			<Container>
@@ -23,9 +23,9 @@ export default function FinalCta() {
 						transition={{ duration: 0.6 }}
 						className="text-center">
 						<h2 className="text-balance text-[44px] font-semibold leading-[0.95] tracking-tight md:text-[72px]">
-							KEEP GOING
+							I WILL NEVER
 							<br />
-							NEVER GIVE UP!
+							GIVE UP!
 						</h2>
 
 						<motion.a
