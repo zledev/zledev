@@ -113,9 +113,9 @@ export default function ProjectView() {
 							</div>
 						</motion.a>
 					</GlowCard>
-					<div className="flex justify-center items-center gap-5 p-15">
+					<div className="flex justify-center items-center gap-5 mt-15 mb-5 sm:mb-15">
 						<IconButton
-							className="hover:bg-white/20"
+							className="hover:bg-white/20 hidden sm:block"
 							ariaLabel="Previous View"
 							OnClick={() => {
 								setView(
@@ -124,16 +124,18 @@ export default function ProjectView() {
 							}}>
 							❮
 						</IconButton>
-						<GlowCard shadeColor={works[currentView].badge_color} className="shrink-0">
+						<GlowCard
+							shadeColor={works[currentView].badge_color}
+							className="shrink-0">
 							<motion.div
 								key={works[currentView].description}
-								initial={{ opacity: 0}}
+								initial={{ opacity: 0 }}
 								whileInView={{ opacity: 1, x: 0 }}
 								viewport={{ once: true, amount: 0.3 }}
 								transition={{ duration: 1.5, delay: currentView * 0.05 }}
 								className="relative">
 								<div
-									className="w-75 h-48 sm:w-105 sm:h-65 md:w-150 md:h-85 
+									className="w-[80vw] h-[50vw] min-w-75 min-h-48 sm:w-105 sm:h-65 md:w-150 md:h-85 
 							lg:w-180 lg:h-105 flex justify-center">
 									<Image
 										fill
@@ -145,6 +147,26 @@ export default function ProjectView() {
 								</div>
 							</motion.div>
 						</GlowCard>
+						<IconButton
+							className="hover:bg-white/20 hidden sm:block"
+							ariaLabel="Previous View"
+							OnClick={() => {
+								setView(currentView + 1 < works.length ? currentView + 1 : 0);
+							}}>
+							❯
+						</IconButton>
+					</div>
+					<div className="flex sm:hidden gap-3 justify-center mb-10">
+						<IconButton
+							className="hover:bg-white/20"
+							ariaLabel="Previous View"
+							OnClick={() => {
+								setView(
+									currentView - 1 > 0 ? currentView - 1 : works.length - 1,
+								);
+							}}>
+							❮
+						</IconButton>
 						<IconButton
 							className="hover:bg-white/20"
 							ariaLabel="Previous View"
