@@ -45,7 +45,7 @@ export default function FooterLast() {
 									href={s.href}
 									className="inline-flex items-center gap-2 hover:text-white">
 									<span className="relative h-4 w-4">
-										<Image src={s.icon} alt="" fill draggable={false}/>
+										<Image src={s.icon} alt="" fill sizes="99vw" draggable={false}/>
 									</span>
 									{s.label}
 								</a>

@@ -58,7 +58,7 @@ export default function Hero() {
 							alt="ZleDev"
 							width={60}
 							height={60}
-							className="mx-auto opacity-90 rounded-full shadow-[0_0_2.5rem_#22c55e]"
+							className="mx-auto opacity-90 rounded-full shadow-[0_0_2.5rem_#22c55e] h-auto w-auto"
 							priority
 							draggable={false}
 						/>
